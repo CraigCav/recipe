@@ -293,7 +293,12 @@ const EzNavigation: FC<Props> = ({
             )}
             {userMenu && (
               <nav className={menus()} aria-label={t('User menu')}>
-                <UserMenu name={userMenu.name} links={userMenu.links} sidebarToggle={toggle} />
+                <UserMenu
+                  name={userMenu.name}
+                  links={userMenu.links}
+                  isSidebarOpen={!hidden}
+                  sidebarToggle={toggle}
+                />
               </nav>
             )}
           </div>
