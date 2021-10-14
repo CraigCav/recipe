@@ -1,5 +1,11 @@
 ## Version 12
 
+## 12.3.0
+
+### Minor Changes
+
+- feat: add alert use variant and icon prop to EzStatus [[sha]](https://github.com/ezcater/recipe/commit/5d76bf5f)
+
 ## 12.2.0
 
 ### Minor Changes
